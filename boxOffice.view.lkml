@@ -12,7 +12,7 @@ view: boxOffice {
     #   sql: ${TABLE}.user_id ;;
   }
 
-  dimension: week {
+  dimension: Year {
     #   description: "Unique ID for each user that has ordered"
     type: string
     #   sql: ${TABLE}.user_id ;;
@@ -20,7 +20,7 @@ view: boxOffice {
 
   dimension: created_date {
     #   description: "Unique ID for each user that has ordered"
-    type: string
+    type: date
     #   sql: ${TABLE}.user_id ;;
   }
 
