@@ -40,6 +40,6 @@ view: boxOffice {
   }
 
   set: detail {
-    fields: [boxOffice_id, movie_title, Year, collection]
+    fields: [boxOffice_id, movie_title, Year, collection,Created_date]
   }
 }
